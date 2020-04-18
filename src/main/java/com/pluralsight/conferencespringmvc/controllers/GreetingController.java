@@ -13,10 +13,11 @@ public class GreetingController {
         model.put("message", "Hello Shittu!");
         return "greeting";
     }
-    @GetMapping("thyme")
+    // For thymeleaf controller
+    /*@GetMapping("thyme")
     public String thyme( Map<String, Object> model){
         model.put("message", "Hello Thymeleaf");
         return "thyme";
-    }
+    }*/
 
 }
